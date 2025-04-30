@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Odev3</string>
+    <string name="profil">Profil</string>
+    <string name="bilgi">Bilgi</string>
+    <string name="tum">Tüm</string>
+    <string name="son">Son</string>
+    <string name="yakında">Yakında</string>
+    <string name="en_yeni">Yeni</string>
+    <string name="aciklama">Açıklama</string>
+    <string name="aciklama_kull">İsmim Ömer Sefa. Yazılım ve teknolojiye güçlü bir ilgi duyan bir Bilgisayar Programcılığı öğrencisiyim...Devamını oku</string>
+    <string name="button">Hadi Konuşalım!</string>
+    <string name="github">Github</string>
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Odev3</string>
+    <string name="profil">Profile</string>
+    <string name="bilgi">Information</string>
+    <string name="tum">All</string>
+    <string name="son">Recent</string>
+    <string name="yakında">Nearby</string>
+    <string name="en_yeni">Newest</string>
+    <string name="aciklama">Description</string>
+    <string name="aciklama_kull">My name is Ömer Sefa. I am a Computer Programming student with a strong interest in software and technology...Read more</string>
+    <string name="button">Lets Talk!</string>
+    <string name="github">Github</string>
+</resources>
