@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="yazirenk">#FF000000</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="renk1">#202020</color>
+    <color name="renk2">#777777</color>
+    <color name="renk3">#F24405</color>
+    <color name="arkarenk">#FBFBFB</color>
+
+</resources>
