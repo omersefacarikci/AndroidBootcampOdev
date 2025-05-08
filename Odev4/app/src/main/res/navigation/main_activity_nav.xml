@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_activity_nav"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.omersefacarikci.odev4.anasayfaFragment"
+        android:label="fragment_anasayfa"
+        tools:layout="@layout/fragment_anasayfa" >
+        <action
+            android:id="@+id/agecis"
+            app:destination="@id/aFragment" />
+        <action
+            android:id="@+id/xgecis"
+            app:destination="@id/xFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/aFragment"
+        android:name="com.omersefacarikci.odev4.aFragment"
+        android:label="fragment_a"
+        tools:layout="@layout/fragment_a" >
+        <action
+            android:id="@+id/bgecis"
+            app:destination="@id/bFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/xFragment"
+        android:name="com.omersefacarikci.odev4.xFragment"
+        android:label="fragment_x"
+        tools:layout="@layout/fragment_x" >
+        <action
+            android:id="@+id/ygecis"
+            app:destination="@id/yFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/bFragment"
+        android:name="com.omersefacarikci.odev4.bFragment"
+        android:label="fragment_b"
+        tools:layout="@layout/fragment_b" >
+        <action
+            android:id="@+id/ytobgecis"
+            app:destination="@id/yFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/yFragment"
+        android:name="com.omersefacarikci.odev4.yFragment"
+        android:label="fragment_y"
+        tools:layout="@layout/fragment_y" >
+        <action
+            android:id="@+id/anasayfagecis"
+            app:destination="@id/anasayfaFragment" />
+    </fragment>
+</navigation>
